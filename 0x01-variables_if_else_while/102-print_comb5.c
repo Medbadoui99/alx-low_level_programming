@@ -2,7 +2,7 @@
  * File: 102-print_comb5.c
  */
 
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Prints all possible combinations of two two-digit numbers,
