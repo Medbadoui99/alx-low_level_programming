@@ -4,7 +4,7 @@
 /*
  * File: main.h
  * Desc: Header file containing prototypes for all functions
- *       used in the 0x04-pointers_arrays_strings.
+ *       used in the 0x03-pointers_arrays_strings.
  */
 
 int _putchar(char c);
