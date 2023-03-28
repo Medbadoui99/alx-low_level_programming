@@ -10,9 +10,9 @@
  */
 void print_rev(char *s)
 {
-	int len = *s, index;
+	int len = 0, index;
 
-	while (s[index])
+	while (s[index++])
 		len++;
 
 	for (index = len - 1; index >= 0; index--)
