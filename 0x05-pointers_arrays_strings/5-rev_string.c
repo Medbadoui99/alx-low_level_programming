@@ -3,12 +3,12 @@
  */
 
 #include "main.h"
-
+#include <stdio.h>
 /**
  * rev_string - Reverses a string.
  * @s: string to be reversed.
  */
-void re_string(char *s)
+void rev_string(char *s)
 {
 	int len = 0, index = 0;
 	char tmp;
