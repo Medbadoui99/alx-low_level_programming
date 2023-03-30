@@ -5,11 +5,11 @@
 #include "main.h"
 
 /**
- * *_strcat _ concatenates two strings.
+ * *_strcat - concatenates two strings.
  * @dest: A pointer to the string to be concatenated upon.
  * @src: The source string to be appended to @dest.
  *
- * Return: dest.
+ * Return: A pointer to the destination string @dest.
  */
 char *_strcat(char *dest, char *src)
 {
@@ -30,5 +30,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[i] = '\0';
+
 	return (dest);
 }
