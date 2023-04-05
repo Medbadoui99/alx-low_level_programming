@@ -5,10 +5,9 @@
 #include "main.h"
 
 /**
- * *_memset - Fills the first n bytes of the memory area
- *          pointed to by @s with the constant byte @b.
- * @s: A pointer to the memory area to be filled.
- * @b: The character to fill the memory area with.
+ * _memset - Fills a block of memory with a specific value.
+ * @s: starting address of memory to be filled.
+ * @b: the desired value.
  * @n: The number of bytes to be filled.
  *
  * Return: A pointer to the filled memory area @s.
